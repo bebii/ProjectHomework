@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    tools:context=".activity.AssignmentActivity">
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Question"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorFront"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <RadioButton
+            android:id="@+id/radioA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/colorFront" />
+
+        <RadioButton
+            android:id="@+id/radioB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/colorFront" />
+
+        <RadioButton
+            android:id="@+id/radioC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/colorFront" />
+
+        <RadioButton
+            android:id="@+id/radioD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/colorFront" />
+
+        <RadioButton
+            android:id="@+id/radioE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/colorFront" />
+    </RadioGroup>
+
+
+</LinearLayout>

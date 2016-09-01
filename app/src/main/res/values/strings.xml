@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smart Homework</string>
+    <string name="app_nameAddHw">Add Homework</string>
+    <string name="app_nameDataHw">Data Homework</string>
+    <string name="app_homework">Homework</string>
+
+    <string name="btn_smt">submit</string>
+    <string name="recent">Recent</string>
+    <string name="action_add">add Homework</string>
+
+    <string name="app_main">Smart Homework</string>
+    <string name="label_assignment">Assignment</string>
+    <string name="label_schedule">Schedule</string>
+    <string name="label_score">Score</string>
+    <string name="label_history">History</string>
+</resources>

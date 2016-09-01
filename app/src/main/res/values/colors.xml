@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#133821</color>
+    <color name="colorPrimary">#174127</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorFieldBorder">#215e38</color>
+    <color name="colorFieldBg">#a6beaf</color>
+
+    <color name="txtColor">#215e38</color>
+    <color name="colorTab">#c7e3c7</color>
+
+    <color name="colorFieldBorderEdt">#1B5E20</color>
+    <color name="colorFieldEdt">#E8F5E9</color>
+
+    <color name="colorFront">#003322</color>
+
+</resources>

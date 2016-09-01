@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddHomeworkActivity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtCourse"
+                android:textIsSelectable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Course"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtChapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Chapter"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtNoSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="No Set"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/edtTeacher"
+                android:textIsSelectable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Teacher"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Detail"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:scrollbars="vertical" />
+
+            <EditText
+                android:id="@+id/edtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Amount"
+                android:inputType="numberDecimal" />
+
+
+            <EditText
+                android:id="@+id/edtAddDate"
+                android:textIsSelectable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Add Date"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/edtExpDate"
+                android:textIsSelectable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview"
+                android:hint="Expire Date"
+                android:inputType="date" />
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+
+
